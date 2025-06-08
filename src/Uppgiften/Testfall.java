@@ -18,7 +18,7 @@ public class Testfall {
     @Test
     public void testCountCharacters() {
         Textstats ts = new Textstats();
-        ts.readLine("Hello World");
+        ts.readLine("Hello me");
         assertEquals(11, ts.getTotalCharacters()); // "Hello World" har 11 tecken inkl. mellanslag
         assertEquals(1, ts.getTotalLines());
     }
