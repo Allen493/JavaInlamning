@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class UppgiftMain {
 
     public static void main(String[] args) {
+
+       //objekt av scanner och objekt av texstats,konstruktor som anropas
         Scanner scanner = new Scanner(System.in);
-        Textstats uppgift = new Textstats();
+        Textstats uppgift = new Textstats(); //konstruktor utan denna så funkar de inte
         String input;
 
         System.out.println("Skriv in 'stop' för att avsluta");

@@ -8,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class Testfall {
 
     @Test
+    //objekt av texstats via konstruktor
     public void testEmptyLine() {
         Textstats ts = new Textstats();
         ts.readLine("");
@@ -16,6 +17,7 @@ public class Testfall {
     }
 
     @Test
+    //objekt av texstats via konstruktor
     public void testCountCharacters() {
         Textstats ts = new Textstats();
         ts.readLine("Hello World");
@@ -24,6 +26,8 @@ public class Testfall {
     }
 
     @Test
+
+    //objekt av texstats via konstruktor
     public void testCheckForStop() {
         Textstats ts = new Textstats();
         assertTrue(ts.checkForStop("stop"));

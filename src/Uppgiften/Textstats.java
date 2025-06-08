@@ -1,6 +1,7 @@
 package Uppgiften;
 
 public class Textstats {
+    //gör ett attribut
     private int totalChars = 0;
     private int numberOfLines = 0;
 
@@ -13,6 +14,7 @@ public class Textstats {
         return line.equalsIgnoreCase("stop");
     }
 
+    //returnerar värdet på attributen
     public int getTotalCharacters() {
         return totalChars;
     }
